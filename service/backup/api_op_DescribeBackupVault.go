@@ -118,6 +118,9 @@ type DescribeBackupVaultOutput struct {
 	// The number of recovery points that are stored in a backup vault.
 	NumberOfRecoveryPoints int64
 
+	// This is the current state of the vault.
+	VaultState types.VaultState
+
 	// This is the type of vault described.
 	VaultType types.VaultType
 

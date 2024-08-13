@@ -1121,6 +1121,12 @@
                     "traits": {
                         "smithy.api#documentation": "<p>The date and time when Backup Vault Lock configuration becomes immutable,\n         meaning it cannot be changed or deleted.</p>\n         <p>If you applied Vault Lock to your vault without specifying a lock date, you can change\n         your Vault Lock settings, or delete Vault Lock from the vault entirely, at any time.</p>\n         <p>This value is in Unix format, Coordinated Universal Time (UTC), and accurate to\n         milliseconds. For example, the value 1516925490.087 represents Friday, January 26, 2018\n         12:11:30.087 AM.</p>"
                     }
+                },
+                "VaultState": {
+                    "target": "com.amazonaws.backup#VaultState",
+                    "traits": {
+                        "smithy.api#documentation": "<p>This is the current state of the vault.</p>"
+                    }
                 }
             },
             "traits": {
@@ -4912,6 +4918,12 @@
                     "target": "com.amazonaws.backup#timestamp",
                     "traits": {
                         "smithy.api#documentation": "<p>The date and time when Backup Vault Lock configuration cannot be changed or\n         deleted.</p>\n         <p>If you applied Vault Lock to your vault without specifying a lock date, you can change\n         any of your Vault Lock settings, or delete Vault Lock from the vault entirely, at any\n         time.</p>\n         <p>This value is in Unix format, Coordinated Universal Time (UTC), and accurate to\n         milliseconds. For example, the value 1516925490.087 represents Friday, January 26, 2018\n         12:11:30.087 AM.</p>"
+                    }
+                },
+                "VaultState": {
+                    "target": "com.amazonaws.backup#VaultState",
+                    "traits": {
+                        "smithy.api#documentation": "<p>This is the current state of the vault.</p>"
                     }
                 }
             },

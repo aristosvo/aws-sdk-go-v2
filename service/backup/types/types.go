@@ -677,6 +677,9 @@ type BackupVaultListMember struct {
 	// The number of recovery points that are stored in a backup vault.
 	NumberOfRecoveryPoints int64
 
+	// This is the current state of the vault.
+	VaultState VaultState
+
 	noSmithyDocumentSerde
 }
 
